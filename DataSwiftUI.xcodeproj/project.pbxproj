@@ -16,6 +16,7 @@
 		DE5F04C1288B0A840001FAB5 /* YapilacakModeli.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F04C0288B0A840001FAB5 /* YapilacakModeli.swift */; };
 		DE5F04C3288B0AF90001FAB5 /* YapilacakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F04C2288B0AF90001FAB5 /* YapilacakView.swift */; };
 		DE5F04C5288B0B610001FAB5 /* DetayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F04C4288B0B610001FAB5 /* DetayView.swift */; };
+		DE5F04C7288B10330001FAB5 /* YapildiButonu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5F04C6288B10330001FAB5 /* YapildiButonu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		DE5F04C0288B0A840001FAB5 /* YapilacakModeli.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapilacakModeli.swift; sourceTree = "<group>"; };
 		DE5F04C2288B0AF90001FAB5 /* YapilacakView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapilacakView.swift; sourceTree = "<group>"; };
 		DE5F04C4288B0B610001FAB5 /* DetayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetayView.swift; sourceTree = "<group>"; };
+		DE5F04C6288B10330001FAB5 /* YapildiButonu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YapildiButonu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				DE5F04C0288B0A840001FAB5 /* YapilacakModeli.swift */,
 				DE5F04C2288B0AF90001FAB5 /* YapilacakView.swift */,
 				DE5F04C4288B0B610001FAB5 /* DetayView.swift */,
+				DE5F04C6288B10330001FAB5 /* YapildiButonu.swift */,
 			);
 			path = DataSwiftUI;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				DE5F04AF288B03D20001FAB5 /* DataSwiftUIApp.swift in Sources */,
 				DE5F04C5288B0B610001FAB5 /* DetayView.swift in Sources */,
 				DE5F04BD288B072A0001FAB5 /* BirinciView.swift in Sources */,
+				DE5F04C7288B10330001FAB5 /* YapildiButonu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

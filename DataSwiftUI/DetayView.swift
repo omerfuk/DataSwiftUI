@@ -8,13 +8,32 @@
 import SwiftUI
 
 struct DetayView: View {
+    
+    var secilenYapilacak: YapilacakModeli
+    @State var yapildiMi = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack{
+            Text(secilenYapilacak.isim)
+                .font(.largeTitle)
+                .padding()
+                .foregroundColor(self.yapildiMi ? .green : .red)
+            
+            
+            Text(secilenYapilacak.tanim)
+                .font(.largeTitle)
+                .padding()
+                .foregroundColor(self.yapildiMi ? .green : .red)
+            
+            YapildiButonu(yapildiMi: $yapildiMi)
+
+        }
     }
 }
 
 struct DetayView_Previews: PreviewProvider {
     static var previews: some View {
-        DetayView()
+        DetayView(secilenYapilacak: birinciYapilacak)
     }
 }

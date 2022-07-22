@@ -8,17 +8,18 @@
 import SwiftUI
 
 struct YapilacakView: View {
+    
+    
+    
     var body: some View {
         NavigationView{
             List(yapilacaklarDizisi) { yapilacak in
                 NavigationLink {
-                    DetayView()
+                    DetayView(secilenYapilacak: yapilacak)
                 } label: {
                     Text(yapilacak.isim)
+                        
                 }
-
-                
-                
             }
             .navigationTitle("Yapilacaklar")
             
