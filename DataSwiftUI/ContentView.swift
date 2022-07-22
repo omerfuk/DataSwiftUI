@@ -28,6 +28,7 @@ struct ContentView: View {
             }
             
             
+            
             TextField("Test", text: self.$isim)
                 .padding(.horizontal, 20)
                 .frame(height: 50)
